@@ -1,6 +1,7 @@
 ---
 title:  Haskell's function composition and performance
 author: xp
+tags: Programming, Haskell
 ---
 Haskell is a pure functional programming language, therefore, function composition is inherent in the way we code in Haskell. And the Haskell platform libraries do provide a lot of functions to make life easier, you just combine them, in the right order, to create your solution, which is really neat.
 

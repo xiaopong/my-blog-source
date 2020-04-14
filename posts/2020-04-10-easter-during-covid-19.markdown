@@ -1,6 +1,7 @@
 ---
 title:  Easter in the time of Covid-19
 author: xp
+tags: Solilloquy
 ---
 Whether you are a Christian or an adherent to another religion,
 or you are just an atheist, Easter is about rebirth and resilience.

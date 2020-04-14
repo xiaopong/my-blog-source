@@ -1,6 +1,7 @@
 ---
 title:  Perspective of a far away onlooker on Brexit
 author: xp
+tags: Solilloquy
 ---
 So, 51.9% to leave the EU, that's the result of the Brexit referendum. I had been following the debate as a far away onlooker, and as of this morning, I was still thinking that the Remain decision would pervade, when people finally calm down before they cast their vote.
 

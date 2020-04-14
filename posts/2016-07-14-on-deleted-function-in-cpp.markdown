@@ -1,6 +1,7 @@
 ---
 title:  On deleted function in C++
 author: xp
+tags: Programming, C++
 ---
 In C++, when you don't want people to call any specific class method, you would probably define the method as private. But sometimes, it's not always possible to do, or it's not convenient. Sometimes, you have a method with a certain parameter, but the caller would call the method by passing in a different type of parameter, with a different intention. By different type of parameter here, I mean a different type of parameter from the one you intended, when you defined the method.
 

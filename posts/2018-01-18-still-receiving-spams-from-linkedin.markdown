@@ -1,6 +1,7 @@
 ---
 title:  Still receiving spams from LinkedIn months after deleting account
 author: xp
+tags: Solilloquy
 ---
 Someone invited me to LinkedIn in 2007, I believe. I set up an account, and over the following five years, my list of connections gradually grew. One day, out of the blue, I look at my connections, and I had close to 1000!
 

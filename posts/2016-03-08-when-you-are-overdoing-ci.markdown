@@ -1,6 +1,7 @@
 ---
 title:  When you are overdoing continuous integration
 author: xp
+tags: Programming
 ---
 I was having a coffee with a couple of friends last Saturday, and one of them said that since they started doing continuous integration (CI), he has never been busier in project building and tools making. On top of the project works he has to do, he now spends a lot of time writing Jenkins plugins, integrating, debugging, and configuring. After five months of doing CI, he came to the conclusion that something is wrong.
 

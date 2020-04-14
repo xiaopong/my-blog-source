@@ -1,6 +1,7 @@
 ---
 title:  Hotmail and Skype accounts are gone too
 author: xp
+tags: Solilloquy
 ---
 Lately, I have been cleaning up clutters, of online profiles, that is. And today's turn is the Hotmail and Skype accounts. I had a Hotmail account very very early on (in 1996), when it was possible to register an account with a three-letter alias. Then Hotmail became a Microsoft domain.
 

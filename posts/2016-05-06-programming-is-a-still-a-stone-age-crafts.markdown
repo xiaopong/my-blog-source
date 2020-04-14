@@ -1,6 +1,7 @@
 ---
 title:  Programming is still a stone-age crafts
 author: xp
+Tags: Solilloquy, Programming
 ---
 You might think, declaring that programming is still a stone-age craft is a little bit exaggerating, no? After all, it's a high-tech job. Ok, I might be exaggerating, but certainly not by much. We might call our work by respectable names, such as software engineering, system design, software architecture, etc, but at the end, it is still, at best, craftsmanship. This is, by no means, belittling craftsmanship. After all, good craftsman, as we programmers all are, take pride in our works. As much as we do, it does not make it less stone-age-ish.
 

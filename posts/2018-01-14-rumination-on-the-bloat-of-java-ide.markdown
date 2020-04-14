@@ -1,6 +1,7 @@
 ---
 title:  Rumination on the bloat of Java IDE
 author: xp
+tags: Solilloquy, Programming, Java
 ---
 Recently, I found myself switching back and forth between the three major Java (and Scala) IDE. Why? The bloat is intolerable. At the risk of stepping on the toe of the Eclipse and Intellij's fanbois, I have to say that only NetBeans offers a consistent, acceptably-performant experience for Java server programming. Eclipse has been my favorite since 2001, and I have even developed a fair amount of Eclipse plugins in the 2003-2006 time frame (not open sourced, unfortunately), but with the last few releases, Eclipse can barely run without having me stop typing at every other few character, while waiting for Eclipse to respond. Its performance would be fine if I uninstall most of the useful plugins for development, and keep it to a minimum. Intellij is a little better, but not much. But Intellij's single window per project model is really annoying, and not to mention its most stupid refactoring feature. NetBeans has been quite consistent, with some lagging here and there. But... but, its font handling mechanism is so last-century! Every single project I have worked on need to do extensive localization, and NetBeans' incapacity to render multilingual contents properly is turning me off.
 

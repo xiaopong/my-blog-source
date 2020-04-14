@@ -1,6 +1,7 @@
 ---
 title:  Issue with Realtek SD card reader on Debian 8.1
 author: xp
+tags: Thinkpad
 ---
 Just got a new Lenovo Thinkpad X250 laptop last month, the first thing to do was to format the disk, got rid off Windows and installed Debian 8.1. The only extra thing I needed to do was to install the `iwlwifi` firmware, and everything just worked. Well, almost, since I haven't had time to play with the fingerprint scanner yet.
 
@@ -22,7 +23,7 @@ I took a look at the hardware status, `sudo lspci -v`  showed:
         Capabilities: [158] L1 PM Substates
 ```
 
-Hmm, it looked like the module is not even loaded. What's up? Let's take a look at 
+Hmm, it looked like the module is not even loaded. What's up? Let's take a look at
 `dmesg`:
 
 ```
@@ -88,7 +89,7 @@ Now, let's insert an SD card into the slot, and look at system log, we got:
 
 ```
 Aug  9 15:35:23 venus kernel: [ 5280.782622] mmc0: new high speed SDHC card at address aaaa
-Aug  9 15:35:23 venus kernel: [ 5280.783923] mmcblk0: mmc0:aaaa SU08G 7.40 GiB 
+Aug  9 15:35:23 venus kernel: [ 5280.783923] mmcblk0: mmc0:aaaa SU08G 7.40 GiB
 Aug  9 15:35:23 venus kernel: [ 5280.797583]  mmcblk0: p1 p2
 ```
 

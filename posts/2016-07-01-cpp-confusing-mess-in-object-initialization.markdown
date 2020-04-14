@@ -1,6 +1,7 @@
 ---
 title:  C++'s confusing mess in object initialization
 author: xp
+tags: Programming, C++
 ---
 C++ is a powerful programming language, but it is a hugely complex and convoluted programming language. Everyday, we see people struggle to learn the syntax, the semantics and the little quirks to try to cross the learning chasm. It's not just difficult to newbies. Even for old hands, you have to check and re-check every line. After so many years of programming, I still can not feel being in my elements when coding in this satanic language.
 

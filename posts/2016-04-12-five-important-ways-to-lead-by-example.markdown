@@ -1,6 +1,7 @@
 ---
 title:  Five important ways to lead by example
 author: xp
+tags: Solilloquy
 ---
 There are countless books, articles, and essays on leadership, and there are as many on why leading by example is more important, and more effective, than all the engagement policies and disciplinary rules. Be it in an athletic team, an army corps, a modern day corporation, or a nation, a leader must always lead by example. Yet, few people seem to be able to put it into practice.
 

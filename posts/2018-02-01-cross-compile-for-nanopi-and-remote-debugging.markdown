@@ -1,6 +1,7 @@
 ---
 title:  Cross compile for NanoPi and remote debugging
 author: xp
+tags: Programming, C++
 ---
 Recently, I was called in to provide technical training to a young team of a new client, a startup developing remote control devices. I won't go into details of the idea which they are cooking, just to say that the team of C++ developers working on the device are bright young programmers, except the team does not have a team leader to manage the software process.
 

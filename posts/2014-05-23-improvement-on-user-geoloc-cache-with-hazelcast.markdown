@@ -1,6 +1,7 @@
 ---
 title:  Improvement on user geolocation cache with Hazelcast
 author: xp
+tags: Programming, Java, Hazelcast
 ---
 In the last post, we have seen how to cache user geolocation data in Hazelcast, and search for nearby users. This was great. However, as soon as you have a lot of cached data, you would find that searching for nearby users is quite slow. What was wrong?
 
@@ -59,30 +60,30 @@ public class GeoCoordinate implements Portable
 {
     public static final String KEY_LATITUDE          = "latitude";
     public static final String KEY_LONGITUDE         = "longitude";
-    
+
     private double latitude;
     private double longitude;
 
     public GeoCoordinate()
     {
     }
-    
+
     public GeoCoordinate(double lat, double lng)
     {
         this.latitude = lat;
         this.longitude = lng;
     }
-    
+
     public double getLatitude()
     {
         return latitude;
     }
-    
+
     public void setLatitude(double lat)
     {
         this.latitude = lat;
     }
-    
+
     public double getLongitude()
     {
         return longitude;
@@ -91,7 +92,7 @@ public class GeoCoordinate implements Portable
     {
         this.longitude = lng;
     }
-    
+
     @Override
     public int getFactoryId()
     {
@@ -138,12 +139,12 @@ public class GeoDistancePredicate extends AbstractPredicate
     private double latCeiling;
     private double lngFloor;
     private double lngCeiling;
-    
+
     public GeoDistancePredicate()
     {
         super("latitude");
     }
-    
+
     public GeoDistancePredicate(double lat, double lng, double dist)
     {
         super("latitude");
@@ -153,7 +154,7 @@ public class GeoDistancePredicate extends AbstractPredicate
 
         init();
     }
-    
+
     private void init()
     {
         GeoCoordinate c = GeoUtil.fromBearingDistance(latitude, longitude, GeoUtil.NORTH, distance);
@@ -165,7 +166,7 @@ public class GeoDistancePredicate extends AbstractPredicate
         c = GeoUtil.fromBearingDistance(latitude, longitude, GeoUtil.WEST, distance);
         lngFloor = c.getLongitude();
     }
-    
+
     @Override
     public void readData(ObjectDataInput in) throws IOException
     {

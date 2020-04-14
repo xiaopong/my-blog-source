@@ -1,6 +1,7 @@
 ---
 title:  Unscientific comparison of Hazelcast memory model - on-heap and off-heap
 author: xp
+tags: Programming, Java, Hazelcast
 ---
 Recently, I was working on a project that requires to cache a lot of data for fast access, including images and thumbnails, as well as pure Java objects. Therefore, we set out to search for a system that can handle the workload, in a distributed manner. As the project is developed using Java, a Java solution is prefered.
 
@@ -33,7 +34,7 @@ public class HazelcastMemTest
     public static void testObjectCache(String[] args)
     {
         ObjectCacheTest t = null;
-        int count = 0; 
+        int count = 0;
         int maxMem = 0;
         if (args.length == 2)
         {
@@ -48,13 +49,13 @@ public class HazelcastMemTest
         }
 
         t.runTest();
-        t.shutdown();        
+        t.shutdown();
     }
 
     public static void testByteArrayCache(String[] args)
     {
         ByteArrayCacheTest t = null;
-        int count = 0; 
+        int count = 0;
         int maxMem = 0;
         if (args.length == 2)
         {
@@ -69,7 +70,7 @@ public class HazelcastMemTest
         }
 
         t.runTest();
-        t.shutdown();        
+        t.shutdown();
     }
     public static void main(String[] args)
     {
@@ -179,15 +180,15 @@ public class ByteArrayCacheTest
     {
         long start = System.currentTimeMillis();
         byte[] ba = new byte[10240];
-        for (int i = 0; < count; i++)         
-        {             
-            rand.nextBytes(ba); 
-            map.put(Integer.toString(i), ba); 
-        }         
+        for (int i = 0; < count; i++)
+        {
+            rand.nextBytes(ba);
+            map.put(Integer.toString(i), ba);
+        }
         long insertDuration = System.currentTimeMillis() - start;
-         return insertDuration;         
+         return insertDuration;
     }
-     public void runTest()     
+     public void runTest()
      {
          System.out.println("Running test....");
          long insertDuration;
@@ -391,7 +392,7 @@ function show_help {
 if [ $# -ne 2 ]
 then
     show_help
-    exit 0 
+    exit 0
 fi
 
 count=$1

@@ -1,6 +1,7 @@
 ---
 title:  How to cache user geolocation with Hazelcast and search for nearby users
 author: xp
+tags: Programming, Java, Hazelcast
 ---
 Hazelcast is great as a distributed object cache, it provides all the infrastructure as an in-memory key/value store for caching any type of objects. It even provides some query features to query based on object attributes, albeit the query feature is quite primitive as compared to what we have in relational database. But it does the work. And if it doesn't, you can extend it.
 
@@ -17,19 +18,19 @@ public class MyCachedUser implements Serializable
     private String id = null;
     private double latitude;
     private double longitude;
-    
+
     public MyCachedUser()
     {
-        
+
     }
-    
+
     public MyCachedUser(String id, double latitude, double longitude)
     {
         this.id = id;
         this.latitude = latitude;
         this.longitude = longitude;
     }
-    
+
     public String getId()
     {
         return id;
@@ -65,7 +66,7 @@ Before we go further, we need to be able to calculate the distance between two p
 public class GeoUtil
 {
     public static final double EARTH_RADIUS = 6371.0d;
-    
+
     public static double getDistance(double lat1, double lng1, double lat2, double lng2)
     {
         double dLat = toRadian(lat2 - lat1);
@@ -94,18 +95,18 @@ public class GeoDistancePredicate implements Predicate<String, CachedUser>, Data
     private double latitude;
     private double longitude;
     private double distance;
-    
+
     public GeoDistancePredicate()
     {
     }
-    
+
     public GeoDistancePredicate(double lat, double lng, double dist)
     {
         this.latitude = lat;
         this.longitude = lng;
         this.distance = dist;
     }
-    
+
 
     @Override
     public void readData(ObjectDataInput in) throws IOException
@@ -156,18 +157,18 @@ public class DistancedCachedUser implements Comparable
 {
     private CachedUser user;
     private double distance;
-    
+
     public DistancedCachedUser(CachedUser user, double distance)
     {
         this.user = user;
         this.distance = distance;
     }
-    
+
     public double getDistance()
     {
         return distance;
     }
-    
+
     public CachedUser getUser()
     {
         return user;

@@ -1,6 +1,7 @@
 ---
 title:  How to implement off-heap memory storage for Hazelcast
 author: xp
+tags: Programming, Java, Hazelcast
 ---
 In the last post, I did a small comparison of on-heap and off-heap memory storage of Hazelcast for byte arrays and plain Java objects. The benchmark methodology was far from being scientific, as it was meant for my own understanding of the Hazelcast internals and the effectiveness of my own implementation of off-heap memory management mechanism.
 

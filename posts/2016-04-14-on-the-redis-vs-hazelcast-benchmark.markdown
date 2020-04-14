@@ -1,6 +1,7 @@
 ---
 title:  On the Redis vs Hazelcast benchmark
 author: xp
+tags: Programming, Hazelcast, Redis
 ---
 I have read the [Redis vs Hazelcast benchmark](https://hazelcast.com/resources/benchmark-redis-vs-hazelcast/) with a lot of interest, as we use both cache frameworks in our projects for a few years now. However, we are still on older versions, namely v3.2 for Hazelcast and v2.8.x for Redis. We like both of them, a lot. Both have their strengths, and issues, as I wouldn't really call them weaknesses. Although we have heavily used Hazelcast cluster, but we haven't tested the new Redis cluster, so I would not be able to comment on the Redis cluster performance.
 

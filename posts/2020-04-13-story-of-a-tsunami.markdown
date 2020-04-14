@@ -1,6 +1,7 @@
 ---
 title:  Story of a tsunami
 author: xp
+tags: Solilloquy
 ---
 
 A big tsunami, carrying a big wave, was rushing to the shore. A kid was hit first.

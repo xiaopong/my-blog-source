@@ -1,6 +1,7 @@
 ---
 title:  Why sharing inside information with your team is important
 author: xp
+tags: Solilloquy
 ---
 As a team leader, I always like to share "inside" information with my team. Be it market situation, funding status, challenges we've met, the opportunities we are after, new projects we are planning, new government regulations that might affect their financial well-being, a new framework worth studying, a good book I've just read, etc, I always like to share it with my team.
 
